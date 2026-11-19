@@ -33,3 +33,6 @@ data/
 
 # Generated files
 *.tsbuildinfo
+
+# Docs 
+ProjectDetails.md
