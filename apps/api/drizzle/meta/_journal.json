@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795067851382,
+      "tag": "0000_lethal_natasha_romanoff",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795069913099,
+      "tag": "0001_supreme_hellfire_club",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795077478209,
+      "tag": "0002_parched_brother_voodoo",
+      "breakpoints": true
+    }
+  ]
+}

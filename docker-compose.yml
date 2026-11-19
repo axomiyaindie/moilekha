@@ -1,3 +1,4 @@
+
 name: moilekha
 
 services:
@@ -9,7 +10,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER:-moilekha}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
     ports:
-      - '127.0.0.1:5432:5432'
+      - '127.0.0.1:5434:5432'
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -29,7 +30,7 @@ services:
       - --appendonly
       - 'yes'
     ports:
-      - '127.0.0.1:6379:6379'
+      - '127.0.0.1:6380:6379'
     volumes:
       - redis_data:/data
     healthcheck:
